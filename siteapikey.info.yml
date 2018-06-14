@@ -1,0 +1,5 @@
+name: Site API key
+description: Develop site api key in site information page
+core: 8.x
+package: Custom
+type: module

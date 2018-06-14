@@ -1,0 +1,6 @@
+siteapikey.ApiPage:
+  path: '/page_json/{key}/{nid}' 
+  defaults: 
+    _controller: '\Drupal\siteapikey\Controller\ApiPageController::ApiPage'
+  requirements: 
+    _permission: 'access content'
