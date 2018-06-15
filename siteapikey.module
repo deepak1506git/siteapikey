@@ -15,11 +15,8 @@ function siteapikey_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
         '#default_value' => $data,
     );
     /* Add a custom submit handler */
-    // echo "<pre>";print_r($form['actions']['submit']['#value']);die;
     $form['actions']['submit']['#value'] = $button_value;
     $form['#submit'][] = 'siteapikey_custom_submit';
-    /* Attach library. */
-    $form['#attached']['library'][] = 'siteapikey/jquery.siteapikey_js';
   }
 }
 
