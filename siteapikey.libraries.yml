@@ -1,7 +1,0 @@
-jquery.siteapikey_js:
-  version: 1.x
-  js:
-    js/siteapikeys.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupalSettings
